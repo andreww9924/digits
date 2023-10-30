@@ -4,9 +4,9 @@ import { Card } from 'react-bootstrap';
 
 /** Renders a single row in the List Stuff table. See pages/ListStuff.jsx. */
 const Contact = ({ contact }) => (
-  <Card>
+  <Card className="h-100">
     <Card.Header>
-      <Card.Img width={75}>{contact.image}</Card.Img>
+      <Card.Img width={75} src={contact.image} />
       <Card.Title>{contact.firstName} {contact.lastName}</Card.Title>
       <Card.Subtitle>{contact.address}</Card.Subtitle>
     </Card.Header>
