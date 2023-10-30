@@ -48,3 +48,7 @@ footer, footer a {
 .bg-dark a.dropdown-item {
   color: var(--matr-navbar-bg);
 }
+
+.navbar a.nav-link.active {
+  color: var(--matr-navbar-highlight-text);
+}
