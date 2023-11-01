@@ -2,7 +2,7 @@ import { Mongo } from 'meteor/mongo';
 import SimpleSchema from 'simpl-schema';
 
 /**
- * The StuffsCollection. It encapsulates state and variable values for stuff.
+ * The ContactsCollection. It encapsulates state and variable values for Contacts.
  */
 
 class ContactsCollection {
@@ -29,7 +29,7 @@ class ContactsCollection {
 }
 
 /**
- * The singleton instance of the StuffsCollection.
+ * The singleton instance of the Contacts.
  * @type {ContactsCollection}
  */
-export const Stuffs = new ContactsCollection();
+export const Contacts = new ContactsCollection();
